@@ -274,3 +274,15 @@ BTCPAY_API_KEY=your_key
 
 For updates, ideas, or contributions, reach out at: dylanbliss@gmail.com
 
+
+## Getting Started (Development)
+
+1. Install Python dependencies:
+   ```bash
+   pip install -r backend/requirements.txt
+   ```
+2. Run the API server:
+   ```bash
+   uvicorn backend.app.main:app --reload
+   ```
+   The service will be available at http://localhost:8000
